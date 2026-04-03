@@ -1,0 +1,37 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="138" y1="102" x2="888" y2="930" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FF6B35" />
+      <stop offset="0.56" stop-color="#FF8C42" />
+      <stop offset="1" stop-color="#FFD23F" />
+    </linearGradient>
+    <linearGradient id="plate" x1="334" y1="240" x2="698" y2="714" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF8E6" />
+      <stop offset="1" stop-color="#FFF1C7" />
+    </linearGradient>
+    <filter id="shadow" x="64" y="64" width="896" height="896" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="60" stdDeviation="60" flood-color="#E66E3B" flood-opacity="0.24" />
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="112" y="112" width="800" height="800" rx="224" fill="url(#bg)" />
+  </g>
+
+  <circle cx="512" cy="454" r="214" fill="url(#plate)" />
+  <circle cx="512" cy="454" r="154" fill="#FFF9EF" fill-opacity="0.78" />
+
+  <g fill="#1A2238">
+    <rect x="436" y="312" width="38" height="276" rx="19" />
+    <rect x="420" y="270" width="14" height="86" rx="7" />
+    <rect x="442" y="270" width="14" height="86" rx="7" />
+    <rect x="464" y="270" width="14" height="86" rx="7" />
+    <path d="M561 270C595.242 270 623 297.758 623 332C623 374.43 596.334 401.43 585 415.182V588H547V270H561Z" />
+  </g>
+
+  <g transform="translate(628 618)">
+    <path d="M96 0L192 54V162L96 216L0 162V54L96 0Z" fill="#1A2238" fill-opacity="0.16" />
+    <path d="M82 0L178 54V162L82 216L-14 162V54L82 0Z" fill="#FFD23F" />
+    <path d="M82 28L104.062 72.713L153.398 79.882L117.699 114.669L126.125 163.799L82 140.593L37.875 163.799L46.301 114.669L10.602 79.882L59.938 72.713L82 28Z" fill="#FF8C42" />
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "2HZLQ4V556.com.ricardo.dinerank"
+        ],
+        "components": [
+          {
+            "/": "/join/*",
+            "comment": "Join shared DineRank meal events."
+          }
+        ]
+      }
+    ]
+  }
+}
